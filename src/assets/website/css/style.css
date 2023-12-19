@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif !important;
+    font-size: 14px;
+    color: #3a3a3a;
+    font-weight: 400; 
+    position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+} 
+ 
+::-webkit-scrollbar-track {
+  background:  #eddf00;
+  border-radius: 20px;
+}
+   
+::-webkit-scrollbar-thumb {
+  background: #272c36;
+  border-radius: 10px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clr,
+.clear {
+    clear: both;
+}
+
+header,
+footer,
+aside,
+article,
+section,
+detail,
+nav,
+figure {
+    position: relative;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none !important;
+    cursor: pointer;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none !important;
+    outline: none;
+}
+
+img {
+    border: 0;
+    outline: none;
+    max-width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea,
+input[type="button"] {
+    max-width: 100%;
+}
+
+table {  width: 100%; }
+p { margin: 0; padding: 0; }
+.fltL { float: left; }
+.fltR { float: right !important; }
+.padding_none { padding: 0 !important;}
+.border_none{border:none !important}
+.navbar-toggle {  background-color: #fff !important; }
+.icon-bar { background-color: #000 !important; }
+.p_right0{ padding-right:0px !important }
+.p_left0{ padding-left:0px !important } 
+input[type=date].form-control{ text-transform: uppercase !important; }
+select{cursor: pointer;outline: 0;}
+
+.Header{background-color:#000;padding:20px 0}
+.Header .navbar{padding:0}
+.Header .navbar .navbar-brand{padding:0;margin:0;width:150px}
+.Header .navbar .navbar-collapse{justify-content:end}
+.Header .navbar .nav-item{margin:0 0 0 10px}
+.Header .navbar .nav-item .nav-link{color:#fff;font-size:14px;font-weight:500;padding:10px 20px;display:flex;align-items:center}
+.Header .navbar .nav-item .nav-link span{color:#8293B2;margin:0 5px 0 0}
+.Header .navbar .nav-item .nav-link img{margin:0 5px 0 0}
+.Header .navbar .nav-item .nav-link select{background:transparent;color:#fff;border:none}
+.Header .navbar .nav-item:last-child .nav-link{background:#f2cf00;color:#000;font-weight:600}
+   
+.SliderArea{position:relative}
+.SliderArea .carousel-indicators{width:140px;margin:auto;padding:15px 10px;background-color:#fff}
+.SliderArea .carousel-indicators li{width:12px;height:12px;border-radius:50px;border:1px solid #CCC;margin:0 5px;background:#fff;opacity:1}
+.SliderArea .carousel-indicators li.active{background-color:#F2CF00;border-color:#F2CF00}
+.SliderArea .carousel-item img{width:100%}
+.SliderArea .carousel-control-prev,
+.SliderArea .carousel-control-next{width:40px;height:40px;background-color:#fff;opacity:1;color:#000;font-size:30px;top:0;bottom:0;margin:auto}
+.SliderArea .carousel-control-prev{left:5%}
+.SliderArea .carousel-control-next{right:5%}
+
+.SlideContent{position:absolute;top:20%;left:15%}
+.SlideContent h3{color:#fff;font-size:38px;margin:0 0 15px 0;font-weight:700}
+.SlideContent p{color:#fff;font-size:18px;font-weight:500;margin:0 0 25px 0}
+.SlideContent ul li{display:inline-block;margin:0 5px 0 0}
+.SlideContent ul li a{background:#f2cf00;color:#000;font-weight:600;padding:12px 20px;display:block}
+.SlideContent ul li a:hover{background-color:#000;color:#f2cf00}
+
+.ServiceArea{padding:50px 0}
+.ServiceArea h3{font-size:24px;color:#000;margin:0 0 15px 0;font-weight:600}
+.ServiceArea .ServiceBox{border:1px solid #ddd;padding:10px;margin:0 0 30px 0}
+.ServiceArea .ServiceBox figure{margin:0}
+.ServiceArea .ServiceBox figure img{width:100%}      
+.ServiceArea .ServiceBox figcaption{padding:15px}
+.ServiceArea .ServiceBox figcaption h4{font-size:18px;font-weight:600;margin:0 0 10px 0;color:#000}
+.ServiceArea .ServiceBox figcaption aside{min-height:100px;margin:0 0 15px 0}
+.ServiceArea .ServiceBox figcaption p{color:#888;font-size:14px;line-height:24px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.ServiceArea .ServiceBox figcaption a{background:#f2cf00;color:#000;font-weight:600;padding:11px 20px;display:inline-block;width: 49%;text-align:center}
+.ServiceArea .ServiceBox article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ServiceArea .ServiceBox:hover{border-color:#f2cf00}
+.ServiceArea .ServiceBox:hover a{background-color:#000;color:#f2cf00}
+.ServiceArea .Login{background:#f2cf00;color:#000;font-weight:600;padding:11px 80px;display:inline-block;text-align:center}
+ 
+.SubscribeArea{background-color:#000;padding:50px 0;border-bottom:1px solid #444}
+.SubscribeArea .SubscribeBox h6{font-size:15px;color:#fff;margin:0 0 25px 0}
+.SubscribeArea .SubscribeBox p{color:#8293B2;margin:0 0 15px 0;font-size:14px;font-weight:600}
+.SubscribeArea .SubscribeBox form{display:flex}
+.SubscribeArea .SubscribeBox form input{border:none;padding:0 15px;width:70%;margin:0 5px 0 0}
+.SubscribeArea .SubscribeBox form button{background:#f2cf00;color:#000;font-weight:600;padding:12px 30px;border:none;outline:0;box-shadow:none}
+.SubscribeArea .InfoBox{position:relative;padding:0 0 0 30px}
+.SubscribeArea .InfoBox .Icon{position:absolute;top:10px;left:0}
+.SubscribeArea .InfoBox p{color:#8293B2;margin:0 0 5px 0}
+.SubscribeArea .InfoBox h5{font-size:14px;color:#fff;line-height:21px;font-weight:600}
+
+.Copyright{padding:50px 0;background:#000}
+.Copyright .CopyBox h4{font-size:17px;color:#fff;margin:0 0 25px 0;font-weight:600}
+.Copyright .CopyBox ul li{margin:0 0 15px 0}
+.Copyright .CopyBox ul li a{color:#8293B2;margin:0 0 15px 0;font-size:15px;font-weight:400}
+.Copyright .CopyBox ul li a:hover{color:#fff}
+.Copyright .CopyLabel p{color:#8293B2;font-size:15px;font-weight:400;text-align:center}
+.Copyright .CopyLabel ul{float:right}
+.Copyright .CopyLabel ul li{display:inline-block;margin:0 0 0 35px}
+.Copyright .CopyLabel ul li a{font-size:18px;color:#fff}
+.Copyright .CopyLabel ul li a:hover{color:#f2cf00}
+
+.BannerArea{background-image:url(../images/Breadcumb.png);background-size:cover;padding:135px 0;text-align:center}
+.BannerArea h3{color:#fff;font-size:45px;font-weight:700;margin:0 0 10px 0}
+.BannerArea ul li{display:inline-block;margin:0 15px;position:relative}
+.BannerArea ul li+li:before{content:'/';color:#fff;position:absolute;left:-21px}
+.BannerArea ul li a{color:#fff;font-size:15px}
+.BannerArea ul li.active a{color:#f2cf00}
+
+.BenefitsArea{padding:50px 0;background:#000}
+.BenefitsArea .BenefitsLeft{color:#fff}
+.BenefitsArea .BenefitsLeft h3{font-size:27px;font-weight:600;margin:0 0 30px 0}
+.BenefitsArea .BenefitsLeft h4{font-size:23px;font-weight:700;margin:0 0 15px 0}
+.BenefitsArea .BenefitsLeft p{margin:0 0 10px 0;font-size:13px;line-height:22px}
+.BenefitsArea .BenefitsRight img{width:100%}
+
+.VideoArea{padding:50px 0}
+.VideoArea .VideoBox .VideoHead{position:relative;margin:0 0 40px 0}
+.VideoArea .VideoBox .VideoHead img{width:100%}
+.VideoArea .VideoBox .VideoHead span{width:50px;position:absolute;height:50px;top:50%;left:50%;transform:translate(-50%,-50%);cursor:pointer}
+.VideoArea .VideoBox .VideoBody{text-align:center}
+.VideoArea .VideoBox .VideoBody h3{color:#000;font-size:33px;font-weight:700;margin:0 0 40px 0}
+.VideoArea .VideoBox .VideoBody p{margin:0 0 50px 0;font-size:15px;font-weight:500;color:#000}
+.VideoArea .VideoBox .VideoBody ul li{display:inline-block;margin:0 14px}
+.VideoArea .VideoBox .VideoBody ul li a{background:#f2cf00;color:#000;font-weight:600;padding:13px 40px;display:block}
+.VideoArea .VideoBox .VideoBody ul li a:hover{background-color:#000;color:#f2cf00}
+
+.AboutArea{padding:50px 0}
+.AboutArea .AboutBox figure{margin:0 0 50px 0}
+.AboutArea .AboutBox figure img{width:100%}
+.AboutArea .AboutBox figcaption{text-align:center}
+.AboutArea .AboutBox figcaption p{margin:0 0 15px 0;font-size:15px;font-weight:400;color:#000;line-height:26px}
+
+.FAQArea{padding-bottom:50px}
+.FAQArea h3{text-align:center;color:#000;margin:0 0 30px 0;font-weight:700}
+.FAQArea .card{border:1px solid #ddd;border-radius:0}
+.FAQArea .card+.card{margin:30px 0 0 0}
+.FAQArea .card .card-header{border-radius:0;border:none;cursor:pointer;background:transparent;padding:20px 25px}
+.FAQArea .card .card-header:before{content:'\f107';font-family:FontAwesome;color:#000;position:absolute;top:15px;right:20px;font-size:20px;font-weight:600}
+.FAQArea .card .card-header h4{font-size:16px;color:#000;font-weight:400}
+.FAQArea .card .card-body{border-top:1px solid #ddd}
+.FAQArea .card .card-body p{font-size:16px;font-weight:400;color:#000;line-height:30px}
+ 
+.AssistanceArea{padding:70px 0}
+.AssistanceArea figcaption{text-align:center}
+.AssistanceArea figcaption h3{font-size:26px;color:#000;margin:0 0 15px 0;font-weight:600}
+.AssistanceArea figcaption p{font-size:15px;font-weight:500;color:#000}
+.AssistanceArea figure{margin:30px 0 0 0}
+
+.ContactArea{padding:60px 0;background-color:#000}
+.ContactArea h3{text-align:center;margin:0 0 30px 0;color:#fff;font-size:26px;font-weight:600}
+.ContactArea .form-group{margin:0 0 20px 0}
+.ContactArea .form-group .form-control{border:none;height:auto;padding:15px 20px;border-radius:0;font-size:14px}
+.ContactArea .form-group button{background:#f2cf00;color:#000;font-weight:600;padding:12px 50px;border:none;outline:0;box-shadow:none}
+
+.VacanciesArea{padding-bottom:60px}
+.VacanciesArea h3{font-size:26px;color:#000;margin:0 0 25px 0;font-weight:600;text-align:center}
+.VacanciesArea .VacanciesBox{background-color:#F5F5F5;border:1px solid #919191;padding:30px;display:flex;justify-content:space-between}
+.VacanciesArea .VacanciesBox+.VacanciesBox{margin:30px 0 0 0}
+.VacanciesArea .VacanciesBox aside p{font-size:15px;margin:0 0 10px 0;color:#5c5c5c;font-weight:500}
+.VacanciesArea .VacanciesBox aside h6{color:#000;font-weight:600}
+
+.RegisterArea{background-color:#000;padding:75px 0;border-bottom:1px solid #3e3e3e;border-top:1px solid #3e3e3e}
+.RegisterArea .RegisterLinks{margin:0 0 50px 0}
+.RegisterArea .RegisterLinks ul{text-align:center}
+.RegisterArea .RegisterLinks ul li{display:inline-block;margin:0 40px}
+.RegisterArea .RegisterLinks ul li a{margin:0;border:none;color:rgb(255 255 255 / 50%);padding:0 0 10px 0;border-bottom:1px solid #000;font-size:16px;display:block}
+.RegisterArea .RegisterLinks ul li.active a{color:#f2cf00;font-weight:700;border-color:#f2cf00}
+   
+.RegisterForm .form-group{margin:0 0 25px 0}
+.RegisterForm .form-group .form-control{height:auto;border:none;outline:0;padding:12px 15px;font-size:15px;border-radius:0;box-shadow:none}
+.RegisterForm .form-group .Extn{display:flex}
+.RegisterForm .form-group .Extn .form-control:last-child{width:100px;border-left:1px solid #9f9f9f}
+.RegisterForm .form-group .ImaesGroup{display:flex;flex-wrap:wrap;margin:40px 0 0 0}
+.RegisterForm .form-group .ImaesGroup li{width:24%;margin:0 25px 20px 0;position:relative}
+.RegisterForm .form-group .ImaesGroup li:last-child{margin:0 0 20px 0;width:20%}
+.RegisterForm .form-group .ImaesGroup li .Close{width:34px;height:34px;color:#000;font-size:24px;line-height:21px;border-radius:50px;border:none;outline:0;position:absolute;right:-17px;top:-17px}
+.RegisterForm .form-group .ImaesGroup li .AddImages{border:2px dashed #cecfcf;text-align:center;position:relative;padding:75px 0}
+.RegisterForm .form-group .ImaesGroup li .AddImages span{width:30px;height:30px;background:#cecfcf;display:inline-block;border-radius:50px;color:#000;line-height:30px}
+.RegisterForm .form-group .ImaesGroup li .AddImages p{margin:10px 0 0 0;color:#cecfcf}
+.RegisterForm .form-group .ImaesGroup li .AddImages input{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;cursor:pointer}
+
+.RegisterForm .RegisterButton{text-align:center;margin:100px 0 0 0}
+.RegisterForm .RegisterButton h4{text-align:center;color:rgb(255 255 255 / 70%);font-size:15px;line-height:25px;margin:0 0 45px 0}
+.RegisterForm .RegisterButton h4 img{margin:0 10px 0 0}
+.RegisterForm .RegisterButton button,
+.RegisterForm .RegisterButton .Submit{background:#f2cf00;font-size:16px;text-transform:uppercase;font-weight:600;border:none;padding:13px 45px;color:#000;width:250px;display:inline-block}
+.RegisterForm .RegisterButton h5{margin:20px 0 0 0;color:rgb(255 255 255 / 70%);font-weight:400;font-size:16px;text-align:center}
+.RegisterForm .RegisterButton h5 a{color:#f2cf00;font-weight:600}
+.RegisterForm .RegisterButton h6{margin:15px 0 0 0;color:rgb(255 255 255 / 70%);font-weight:400;font-size:16px;text-align:center}
+.RegisterForm .RegisterButton h6 a{color:#f2cf00;font-weight:600}
+
+.RegisterRole{text-align:center}
+.RegisterRole h3{font-size:30px;font-weight:600;color:#fff;margin:0 0 25px 0}
+.RegisterRole ul{max-width:350px;margin:auto}
+.RegisterRole ul li{margin:0 0 30px 0}
+.RegisterRole ul li a{background-color:#fff;display:block;padding:15px 20px;color:#626262;font-size:16px;font-weight:500;text-align:left}
+.RegisterRole ul li a:hover{background-color:#f2cf00;color:#000}
+
+.StepBox{text-align:center;margin:0 0 50px 0}
+.StepBox h3{color:#fff;font-weight:600;font-size:25px;margin:0 0 50px 0}
+.StepBox ul li{display:inline-block;width:225px;position:relative}
+.StepBox ul li:before{content:'';position:absolute;width:100%;height:2px;border:1px dashed #cecfcf;top:14px;left:107px}
+.StepBox ul li:last-child:before{content:none}
+.StepBox ul li span{width:30px;height:30px;display:block;background-color:#CECFCF;border-radius:50px;color:#000;line-height:30px;margin:auto;position:relative}
+.StepBox ul li label{margin:5px 0 0 0;color:#CECFCF;font-size:14px;font-weight:400}
+.StepBox ul li.active:before{border-color:#F2CF00;border-style:solid}
+.StepBox ul li.active span{background:#F2CF00}
+.StepBox ul li.active label{color:#F2CF00}
+
+.RepairsBox{margin:0 0 80px 0}
+.RepairsBox p{margin:0 0 35px 0;color:#CECFCF;font-size:17px;font-weight:400}
+.RepairsBox ul li{display:inline-block;position:relative;margin:0 14px 15px 0}
+.RepairsBox ul li input{position:absolute;width:100%;height:100%;opacity:0;cursor:pointer}
+.RepairsBox ul li span{background-color:#fff;padding:10px 24px;display:block;border-radius:5px;color:#000;font-weight:600}
+.RepairsBox ul li input:checked~span{background:#f2cf00}
+.RepairsBox ol{display:flex}
+.RepairsBox ol li{width:25%}
+
+.GarageInformation{background-color:#242424;padding:100px 150px}
+.GarageInformation .InformationBox h4{font-size:16px;color:#f2cf00;margin:0 0 40px 0}
+.GarageInformation .InformationBox h4 a{float:right;color:#fff}
+.GarageInformation .InformationBox ul li{border-bottom:2px dashed #7e7b7b;padding:0 0 30px 0;margin:0 0 30px 0}
+.GarageInformation .InformationBox ul li h6{margin:0 0 15px 0;color:#838383;font-weight:600;font-size:16px}
+.GarageInformation .InformationBox ul li p{color:#fff;font-size:15px;font-weight:600}
+.GarageInformation .InformationBox address p{color:#fff;font-size:15px;font-weight:400;line-height:24px;margin:0 0 15px 0}
+  
+.modal-dialog{margin:100px auto}
+.modal-dialog .modal-content{border-radius:0;border:none;background-color:#000}
+.PanelModal .modal-dialog .modal-content{border-radius:5px;border:none;background-color:#fff; box-shadow: 0px 0px 10px #a3a3a3;}
+.modal-dialog button.Close{width:34px;height:34px;color:#000;font-size:24px;line-height:21px;border-radius:50px;border:none;outline:0;position:absolute;right:-17px;top:-17px}
+
+.LoginForm{padding:50px}
+.LoginForm h3{text-align:center;color:#fff;font-size:25px;font-weight:600;margin:0 0 15px 0}
+.LoginForm h5{text-align:center;color:rgb(255 255 255 / 80%);font-size:14px;line-height:25px;margin:0 0 30px 0}
+.LoginForm h5 img{margin:0 10px 0 0}
+.LoginForm .nav-pills{border:none;margin:0 0 30px 0;justify-content:space-between}
+.LoginForm .nav-pills .nav-item{ display: inline-block; }
+.LoginForm .nav-pills .nav-item:last-child{margin:0}
+.LoginForm .nav-pills .nav-item .nav-link{margin:0; border-radius: 0; border:none;color:rgb(255 255 255 / 50%);padding:0 0 10px 0;border-bottom:1px solid #000;font-size:16px}
+.LoginForm .nav-pills .nav-item .nav-link.active{color:#f2cf00;background:transparent;font-weight:700;border-color:#f2cf00}
+.LoginForm .form-group{margin:0 0 20px 0}
+.LoginForm .form-group .form-control{height:auto;border:none;outline:0;padding:10px 15px;font-size:15px;border-radius:0}
+.LoginForm .form-group p{text-align:right}
+.LoginForm .form-group p a{font-size:16px;color:#fff;font-weight:500}
+.LoginForm button{background:#f2cf00;font-size:16px;text-transform:uppercase;font-weight:600;border:none;padding:13px 45px;color:#000}
+.LoginForm h6{margin:40px 0 0 0;color:rgb(255 255 255 / 50%);font-weight:400;font-size:14px;text-align:center}
+.LoginForm h6 a{color:#f2cf00;font-weight:600}
+
+.ConfirmationBox{text-align:center;padding:50px 20px}
+.ConfirmationBox span{display:inline-block;margin:0 0 30px 0}
+.ConfirmationBox p{color:#fff;font-weight:600;font-size:15px;line-height:32px}
+
+.modal-backdrop{background-color:#fff!important}
+
+.Radio{display:block;position:relative;padding-left:35px;cursor:pointer;font-size:16px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;margin:0;color:#fff;font-weight:600}
+.Radio input{position:absolute;opacity:0;cursor:pointer}
+.Radio .checkmark{position:absolute;top:0;left:0;height:25px;width:25px;background-color:#eee;border-radius:50%}
+.Radio:hover input~.checkmark{background-color:#ccc}
+.Radio input:checked~.checkmark{background-color:#f2cf00}
+.Radio input:checked~.checkmark:after{display:block}
+.Radio .checkmark:after{content:'\f00c ';font-family:FontAwesome;position:absolute;display:none;color:#000;font-size:13px;top:8px;left:6px;line-height:9px}
