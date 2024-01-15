@@ -1230,3 +1230,282 @@ select{cursor: pointer;outline: 0;}
 }
 
 
+.slider_text_hide_mvp{
+    display: block;
+}
+
+.header_lvp_section{
+    display: block;
+}
+
+.header_svp_section{
+    display: none;
+}
+
+.need_help{
+    display: none;
+}
+
+.img_new_car_showroom{
+    height: 218.933px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .SlideContent h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0 0 3px 0;
+    }
+
+    .SlideContent{
+        position: absolute;
+        top: 0%;
+        left: 3%;
+        width: 100%;
+
+    }
+
+    .SlideContent p {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0 0 5px 0;
+        width: 95%;
+    }
+
+    .need_help{
+        display: block;
+    }
+    .need_help h3 {
+        font-size: 24px;
+        color: #000;
+        margin: 15px 0  15px 15px;
+        font-weight: 600;
+        line-height: 30px;
+        display: block;
+    }
+
+    .need_help_btn_group{
+        display: flex;
+        gap: 5px;
+        margin: 15px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .need_help_btn {
+        background: #f2cf00;
+        padding: 15px 10px;
+        width: 100%;
+    }
+
+    .need_help_btn a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        }
+
+    .ServiceArea{
+        padding-top: 10px
+    }
+
+    .slider_text_hide_mvp{
+        display: none;
+    }
+
+    .navbar_brand_title {
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        display: inline-block;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .header_lvp_section{
+        display: none;
+    }
+
+    .header_svp_section{
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+      }
+
+      .nav-elements {
+        position: absolute;
+        right: 0;
+        top: 57px;
+        background-color: #ffffff;
+        width: 0px;
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+        z-index: 999;
+        margin-right:-15px
+      }
+
+      .nav-elements.active {
+        width: 187px;
+      }
+      .svp_flag_btn {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+      }
+      .hr_ruler_line {
+        margin: 10px;
+      }
+
+      .modal-dialog button.Close {
+        top: 0px;
+        right: 0px;
+      }
+
+      .svp_pad_lang {
+        padding-right: 10px;
+      }
+
+      .SliderArea .carousel-indicators {
+        background-color: transparent;
+      }
+
+      .svg_lang_font {
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight: 600;
+      }
+
+      .img_new_car_showroom{
+        height: 241.867px;
+    }
+
+    .ServiceArea .ServiceBox figcaption aside {
+        min-height:initial;
+    }
+
+    .need_help h6 {
+        margin: 15px 0 15px 15px;
+      }
+
+      .ServiceArea {
+        padding-bottom: 0px;
+      }
+
+      .svp_footer_width .col-sm-3{
+        width: auto;
+      }
+
+      .svp_footer_width .col-sm-2{
+        width: auto;
+      }
+
+      .Copyright{
+        padding-top: 25px;
+      }
+
+      .Copyright .CopyBox h4 {
+        margin: 0px 0 15px 0;
+      }
+
+      .CopyLabel{
+        margin-left: -65px;
+      }
+
+      .SubscribeArea .SubscribeBox h6 {
+        margin: 20px 0 25px 0;
+      }
+
+      .svp_subscribe_box .col-sm-6{
+        width: auto;
+      }
+
+      .SubscribeArea {
+        padding: 15px 0;
+      }
+
+      .svp_lang_select_container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .svp_flag{
+        gap: 3px;
+        display: flex;
+      }
+
+      .ServiceArea .ServiceBox figcaption h4 {
+        font-size: 18px;
+      }
+
+      /* .container {
+        margin-top: -1px;
+        padding: 0 0 0 10px !important;
+      } */
+      .Header .navbar .navbar-brand {
+        width: 115px;
+      }
+
+      .Copyright .CopyLabel p {
+        margin-left: 15px;
+      }
+
+      .Copyright .CopyLabel ul {
+        margin-right: 15px;
+      }
+
+      .SubscribeArea .SubscribeBox form button {
+        margin-right: 10px;
+      }
+
+      .svp_spain_flag{
+        height: 15px;
+        width: 28px;
+      }
+
+      .VideoBox video{
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* .VideoArea{
+        padding: 30px 0;
+      } */
+
+      .VideoArea .VideoBox .VideoBody ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 18px;
+      }
+
+      .VideoArea .VideoBox .VideoBody ul li a {
+        padding: 20px 10px;
+      }
+
+      .VideoArea .VideoBox .VideoBody ul li{
+        margin: 0px;
+        width: 180px;
+        display: inline-block;
+      }
+
+      .VideoArea {
+        padding: 30px 0;
+      }
+
+      .VideoArea .VideoBox .VideoBody p {
+        margin: 0px 0 30px 0;
+      }
+
+      .VideoArea .VideoBox .VideoBody h3 {
+        margin: 20px 0 20px 0;
+      }
+}

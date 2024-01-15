@@ -1,6 +1,7 @@
 {
   "name": "auto-website",
   "version": "0.1.0",
+  "homepage": "https://nkuma0228.github.io/web",
   "private": true,
   "dependencies": {
     "@fullcalendar/core": "^6.1.8",
@@ -50,7 +51,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

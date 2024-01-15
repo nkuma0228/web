@@ -45,7 +45,9 @@
             "Login" : "Activer",
             "Autowizisincontact" : "Autowiz travaille avec beaucoup de garagistes et de spécialistes en réparations. Autowiz peut vous aider dans votre entreprise en appuyant les boutons ci-dessous.",
             "Sitecurrentlyunderconstruction" : "Ce site est en construction. Veuillez vous inscrire et nous communiquerons avec vous dès que le site sera actif.",
-            "Ifyouareinthemarket" : "Portail des concessionnaires pour afficher vos véhicules neufs ou d'occasion"
+            "Ifyouareinthemarket" : "Portail des concessionnaires pour afficher vos véhicules neufs ou d'occasion",
+            "NeedHelpWithYourVehicle": "Besoin d'aide avec votre véhicule ? Essayez Autowiz pour la meilleure solution!",
+            "SelectButtonService":"Veuillez sélectionner le bouton ci-dessous pour le service dont vous avez besoin. "
         },
         "autorepair":{
             "AutoRepair" : "Réparations de véhicules",

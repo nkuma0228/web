@@ -45,7 +45,9 @@
             "Login" : "Login",
             "Autowizisincontact" : "Autowiz is in contact with many garages and self repair specialists. Let Autowiz assist you in your business by pressing the button below.",
             "Sitecurrentlyunderconstruction" : "Site currently under construction. Please register and we will contact you once the site is operational.",
-            "Ifyouareinthemarket" : "Dealer portal to display your new or previously used vehicles"
+            "Ifyouareinthemarket" : "Dealer portal to display your new or previously used vehicles",
+            "NeedHelpWithYourVehicle": "Need help with your vehicle?  Try Autowiz for the best solution!",
+            "SelectButtonService":"Please select the button below for the service you need."
         },
         "autorepair":{
             "AutoRepair" : "Auto Repair",
